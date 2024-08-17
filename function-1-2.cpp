@@ -6,7 +6,7 @@ PersonList createPersonList(int n) {
     personList.people = new Person[n];
 
     for (int i = 0; i < n; ++i) {
-        personList.people[i].name = "James Donson";
+        personList.people[i].name = "Jane Doe";
         personList.people[i].age = 1;
     }
 
